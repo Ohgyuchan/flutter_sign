@@ -7,7 +7,7 @@ class SplashPage extends StatelessWidget {
     Future.delayed(
       const Duration(milliseconds: 2500),
       (() async {
-        Get.offNamed('/login');
+        Get.offNamed('/signIn');
       }),
     );
     return Scaffold(
