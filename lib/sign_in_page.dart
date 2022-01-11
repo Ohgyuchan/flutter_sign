@@ -24,6 +24,12 @@ class SignInPage extends StatelessWidget {
     );
   }
 
+  _loginTab() {
+    return Column(
+      children: [TextFormField()],
+    );
+  }
+
   PreferredSize _appBarWidget() {
     return PreferredSize(
       preferredSize: Size.fromHeight(200.0),

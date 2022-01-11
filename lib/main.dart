@@ -1,7 +1,6 @@
 import 'package:get/get.dart';
 import 'package:flutter/material.dart';
 import 'package:sign/sign_in_page.dart';
-import 'package:sign/sign_up_page.dart';
 import 'package:sign/spalash_page.dart';
 
 void main() {
@@ -21,7 +20,6 @@ class MyApp extends StatelessWidget {
       getPages: [
         GetPage(name: '/', page: () => SplashPage()),
         GetPage(name: '/signIn', page: () => SignInPage()),
-        GetPage(name: '/signUp', page: () => SignUpPage())
       ],
     );
   }
