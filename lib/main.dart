@@ -1,5 +1,5 @@
-import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:flutter/material.dart';
 import 'package:sign/sign_in_page.dart';
 import 'package:sign/sign_up_page.dart';
 import 'package:sign/spalash_page.dart';
@@ -11,7 +11,6 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
@@ -24,7 +23,6 @@ class MyApp extends StatelessWidget {
         GetPage(name: '/signIn', page: () => SignInPage()),
         GetPage(name: '/signUp', page: () => SignUpPage())
       ],
-      home: const SignInPage(),
     );
   }
 }
